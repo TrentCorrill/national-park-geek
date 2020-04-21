@@ -1,0 +1,94 @@
+* {
+	/*	border: 1px solid red; */
+}
+
+#header{
+	display: flex;
+	flex-direction: column;
+	background: grey;
+	font-family: 'Source Sans Pro', sansserif;
+	border-radius: 10px;
+}
+
+
+#logo {
+	width: 20%;
+
+}
+
+#nav {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#home {
+	padding: 10px;
+	margin: 10px;
+}
+#survey{
+	padding: 10px;
+	margin: 10px;
+}
+
+.parkCard{
+	display:flex;
+	margin: 10px;
+	padding: 10px;
+	align-items:center;
+	border-radius: 10px;
+	background: grey;
+	color: white;
+}
+
+#parkImage{
+	width: 30%;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.parkInfo{
+align-items: stretch;
+
+}
+#weather{
+	display: flex;
+}
+
+#forecastImage{
+	width:100%;
+}
+
+#weatherInfo{
+}
+
+#suggestion{
+	display: flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+}
+a{
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+
+#detail-image {
+	width: 50%;
+	border-radius: 10px;
+	padding: 10px;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#result {
+	justify: center;
+}
